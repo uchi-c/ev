@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Stage 1 — site preparation">
+  <rect width="800" height="600" fill="#22262B"/>
+  <line x1="0" y1="430" x2="800" y2="430" stroke="#3B424A" stroke-width="2"/>
+  <!-- prepared foundation / plinth -->
+  <g stroke="#5A6570" stroke-width="2" fill="none">
+    <rect x="150" y="410" width="500" height="20"/>
+    <line x1="150" y1="420" x2="650" y2="420" stroke-dasharray="8 8"/>
+  </g>
+  <!-- survey stakes + string line -->
+  <g stroke="#C8102E" stroke-width="2">
+    <line x1="150" y1="390" x2="150" y2="440"/>
+    <line x1="650" y1="390" x2="650" y2="440"/>
+    <line x1="150" y1="395" x2="650" y2="395" stroke-dasharray="4 6"/>
+  </g>
+  <text x="400" y="360" fill="#6B7580" font-family="Archivo, Arial, sans-serif" font-size="26" text-anchor="middle" letter-spacing="4">01 · SITE PREPARATION</text>
+  <text x="400" y="545" fill="#3B424A" font-family="Archivo, Arial, sans-serif" font-size="18" text-anchor="middle" letter-spacing="3">EBM — add: site-photo-03-civil-works</text>
+</svg>
