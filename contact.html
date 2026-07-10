@@ -83,10 +83,13 @@
       <div>
         <span class="kicker">Send an enquiry</span>
         <h2>Request a quote.</h2>
-        <!-- To enable email delivery, add data-endpoint="https://formspree.io/f/XXXX"
-             (or another form service) to the <form> tag below. Without it, the form
-             opens the visitor's email app pre-filled to evaregibuilding@gmail.com. -->
-        <form class="lead" novalidate>
+        <!-- Submissions are sent via Formspree to evaregibuilding@gmail.com.
+             First submission triggers a one-time Formspree confirmation email to
+             that inbox — click it to activate delivery. To use a dashboard form
+             instead, swap data-endpoint for https://formspree.io/f/<your-id>.
+             If the endpoint ever errors, the form falls back to opening the
+             visitor's email app pre-filled to the same address (no leads lost). -->
+        <form class="lead" data-endpoint="https://formspree.io/evaregibuilding@gmail.com" novalidate>
           <div class="form-status" role="status" aria-live="polite"></div>
           <!-- honeypot -->
           <div style="position:absolute;left:-9999px" aria-hidden="true">
