@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Stage 2 — unit installation">
+  <rect width="800" height="600" fill="#22262B"/>
+  <line x1="0" y1="430" x2="800" y2="430" stroke="#3B424A" stroke-width="2"/>
+  <!-- foundation -->
+  <g stroke="#5A6570" stroke-width="2" fill="none">
+    <rect x="150" y="410" width="500" height="20"/>
+  </g>
+  <!-- crane arm + chains -->
+  <g stroke="#C8102E" stroke-width="3" fill="none">
+    <line x1="120" y1="60" x2="470" y2="120"/>
+    <line x1="470" y1="120" x2="400" y2="180"/>
+  </g>
+  <g stroke="#6B7580" stroke-width="1.5">
+    <line x1="400" y1="180" x2="300" y2="240"/>
+    <line x1="400" y1="180" x2="500" y2="240"/>
+  </g>
+  <!-- unit being lowered -->
+  <g stroke="#AAB2BB" stroke-width="2" fill="none">
+    <rect x="300" y="240" width="200" height="90"/>
+    <rect x="420" y="265" width="45" height="35"/>
+    <line x1="443" y1="265" x2="443" y2="300"/>
+  </g>
+  <text x="400" y="380" fill="#6B7580" font-family="Archivo, Arial, sans-serif" font-size="26" text-anchor="middle" letter-spacing="4">02 · INSTALLATION</text>
+  <text x="400" y="545" fill="#3B424A" font-family="Archivo, Arial, sans-serif" font-size="18" text-anchor="middle" letter-spacing="3">EBM — add: site-photo-01-crew</text>
+</svg>
